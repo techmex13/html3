@@ -1,15 +1,16 @@
 @charset "UTF-8";
-/* CSS Document */
 
-  body{
-      background: url("lifeandlemons.png") no-repeat;
-      background-size:cover;
+
+body{
+      background: url("images/orchids2.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
 
 }
 
 
 
-#wrapper{
+#container{
     width:900px;
     margin:0 auto;
 }
@@ -19,8 +20,8 @@ header{
 
 }
 header h1 {
-	font-size: 55px;
-	font-family: hoosier-daddy, sans-serif;
+	font-size: 45px;
+	font-family: "hoosier-daddy", Helvetica, Arial, "sans-serif";
 	font-weight: 400;
 	font-style: normal;
 	text-align: center;
@@ -28,43 +29,39 @@ header h1 {
 }
 nav{
 	width:100%;
-	text-align: center;
+  text-align: center;
+  font-size: 25px;
+  color: white;
 }
 
 nav ul{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-
+  list-style-type:center;
+  margin:0;
+  padding:0;
+  color: white;
 }
-
-nav li{
-	display:list-item;
-
-}
-
 
 footer{
-	text-align: center;
+	text-align:center;
 	clear:both;
-	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-family:"hoosier-daddy", Helvetica, Arial, "sans-serif";
 
 }
 
 nav a:link {
-font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
-  color:rgba(104,104,104,.75);
+font-family:"hoosier-daddy", Helvetica, Arial, "sans-serif";
+  color:white;
   text-decoration: none;
   margin-right: 20px;
 
 }
 
 nav a:visited {
-
+color:black
 }
 
 nav a:hover {
-  color:rgba(104,104,104,1);
+  color:orange;
 }
 
 nav a:active {
@@ -83,7 +80,7 @@ nav a:active {
 	width: 400px;
 	float:left;
 	margin-left: 30px;
-	margin-top:30px;
-	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	margin-top: 0px;
+	font-family:"hoosier-daddy","sans-serif";
 	font-size: 18px;
 }
